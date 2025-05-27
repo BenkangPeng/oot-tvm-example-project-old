@@ -46,3 +46,5 @@ void ArithIntSetTest() {
 }
 
 }  // namespace int_set_test
+
+REGISTER_TEST_SUITE(int_set_test::ArithIntSetTest, arith_int_set_test_ArithIntSetTest);
